@@ -184,9 +184,11 @@ app.use(express.json());
     });
 
     // Start server
-    app.listen(5000, () => {
-      console.log('Backend running on http://localhost:5000');
-    });
+  //  FIX
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Backend running on port ${PORT}`);
+});
 
   } catch (error) {
     console.error('Initialization Error: Check if your local MySQL instance is running.');
