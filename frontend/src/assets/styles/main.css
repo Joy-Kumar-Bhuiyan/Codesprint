@@ -1,0 +1,19 @@
+/* main.css */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 2em;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
